@@ -1,0 +1,11 @@
+x = int(input())
+h = int(input())
+m = int(input())
+
+h = h * 60
+
+hours = ((x + h + m) // 60)
+minutes = ((x + h + m) % 60)
+
+print(hours)
+print(minutes)
